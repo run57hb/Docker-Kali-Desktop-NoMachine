@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Download and run the latest ngrok script
-wget -O ng.sh https://raw.githubusercontent.com/kmille36/Docker-Kali-Desktop-NoMachine/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/run57hb/Docker-Kali-Desktop-NoMachine/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 
@@ -20,7 +20,7 @@ read -p "Paste Ngrok Authtoken: " CRP
 ./ngrok config add-authtoken $CRP
 
 clear
-echo "Repo: https://github.com/kmille36/Docker-Kali-Desktop-NoMachine"
+echo "Repo: https://github.com/run57hb/Docker-Kali-Desktop-NoMachine"
 echo "======================="
 echo "Choose ngrok region (for better connection):"
 echo "======================="
